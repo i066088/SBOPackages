@@ -2,6 +2,7 @@
   "default": {
     "beicode": { "baseline": "1.0.0", "port-version": 0 },
     "beison": { "baseline": "1.0.0", "port-version": 0 },
-    "openssl": { "baseline": "1.1.1u", "port-version": 0 }
+    "openssl": { "baseline": "1.1.1u", "port-version": 0 },
+    "xalan-c": { "baseline": "1.12", "port-version": 0 }
   }
 }
