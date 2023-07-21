@@ -41,5 +41,6 @@ file(INSTALL  ${CEF_LIB_FILES_DEBUG} DESTINATION ${CURRENT_PACKAGES_DIR}/debug/l
 file(INSTALL "${CURRENT_BUILDTREES_DIR}/${TARGET_TRIPLET}-dbg/libcef_dll_wrapper/Debug/libcef_dll_wrapper.lib" DESTINATION ${CURRENT_PACKAGES_DIR}/debug/lib)
 file(INSTALL "${CURRENT_BUILDTREES_DIR}/${TARGET_TRIPLET}-dbg/libcef_dll_wrapper/Debug/libcef_dll_wrapper.pdb" DESTINATION ${CURRENT_PACKAGES_DIR}/debug/lib)
 
-file(INSTALL "${src}/include/" DESTINATION ${CURRENT_PACKAGES_DIR}/include)
+# cef requires an extra include folder
+file(INSTALL "${src}/include/" DESTINATION ${CURRENT_PACKAGES_DIR}/include/include)
 file(INSTALL "${src}/LICENSE.txt" DESTINATION ${CURRENT_PACKAGES_DIR}/share/${PORT} RENAME copyright)
