@@ -4,6 +4,7 @@
     "beison": { "baseline": "1.0.0", "port-version": 0 },
     "openssl": { "baseline": "1.1.1u", "port-version": 0 },
     "xalan-c": { "baseline": "1.12", "port-version": 0 },
-    "curlpp": {"baseline": "2018-06-15-3", "port-version": 0}
+    "curlpp": {"baseline": "2018-06-15-3", "port-version": 0},
+    "cef": { "baseline": "107.1.9", "port-version": 0 }
   }
 }

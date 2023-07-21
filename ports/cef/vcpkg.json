@@ -1,0 +1,17 @@
+{
+  "name": "cef",
+  "version": "107.1.9",
+  "description": "Chromium Embedded Framework (CEF) Standard Binary Distribution for Windows.",
+  "homepage": "https://bitbucket.org/chromiumembedded/cef.git",
+  "license": "BSD-1-Clause",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
