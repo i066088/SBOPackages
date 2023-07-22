@@ -20,6 +20,8 @@ vcpkg_extract_source_archive(
 vcpkg_configure_cmake(
     SOURCE_PATH "${src}"
 #    GENERATOR "Visual Studio 17 2022"
+    OPTIONS
+        -DUSE_SANDBOX=OFF
 )
 
 vcpkg_build_cmake()
