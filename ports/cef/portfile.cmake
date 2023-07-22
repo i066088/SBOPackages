@@ -14,7 +14,8 @@ vcpkg_download_distfile(
 vcpkg_extract_source_archive(
     src
     ARCHIVE "${archive}"
-    # SOURCE_BASE "cef_binary_${CEF_VERSION}"
+    PATCHES
+        use-md.patch
 )
 
 vcpkg_configure_cmake(
