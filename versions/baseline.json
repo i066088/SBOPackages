@@ -5,6 +5,6 @@
     "openssl": { "baseline": "1.1.1v", "port-version": 0 },
     "xalan-c": { "baseline": "1.12", "port-version": 0 },
     "curlpp": {"baseline": "2018-06-15-3", "port-version": 0},
-    "cef": { "baseline": "107.1.9", "port-version": 0 }
+    "cef": { "baseline": "115.3.11", "port-version": 0 }
   }
 }

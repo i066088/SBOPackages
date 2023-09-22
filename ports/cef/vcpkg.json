@@ -1,6 +1,6 @@
 {
   "name": "cef",
-  "version": "107.1.9",
+  "version": "115.3.11",
   "description": "Chromium Embedded Framework (CEF) Standard Binary Distribution for Windows.",
   "homepage": "https://bitbucket.org/chromiumembedded/cef.git",
   "license": "BSD-1-Clause",

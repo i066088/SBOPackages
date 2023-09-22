@@ -1,5 +1,5 @@
-set(CEF_VERSION 107.1.9)
-set(CHROME_VERSION 107.0.5304.110)
+set(CEF_VERSION 115.3.11)
+set(CHROME_VERSION 115.0.5790.114)
 
 # Not useful for CEF
 #set(VCPKG_BUILD_SHARED_LIBS OFF)
@@ -12,7 +12,7 @@ vcpkg_download_distfile(
     archive
     URLS "https://cef-builds.spotifycdn.com/cef_binary_${CEF_VERSION}%2Bg1f0a21a%2Bchromium-${CHROME_VERSION}_windows64.tar.bz2"
     FILENAME "cef_binary_${CEF_VERSION}_chromium-${CHROME_VERSION}_windows64.tar.bz2"
-    SHA512 81e4ce641cbf44f35bc09ff471d1893b9ce037ce27f399af8898be429b745a8e0f5fa8cfa203965f55b74d335dec94f7be4b9a73b0f0fbe71b5fbab0f8116e49
+    SHA512 cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e
 )
 
 # Apply use-md.patch to enable Multi-threaded DLL (/MD)
