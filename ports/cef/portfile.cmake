@@ -10,9 +10,9 @@ set(VCPKG_LIBRARY_LINKAGE static)
 
 vcpkg_download_distfile(
     archive
-    URLS "https://cef-builds.spotifycdn.com/cef_binary_${CEF_VERSION}%2Bg1f0a21a%2Bchromium-${CHROME_VERSION}_windows64.tar.bz2"
+    URLS "https://cef-builds.spotifycdn.com/cef_binary_${CEF_VERSION}%2Bga61da9b%2Bchromium-${CHROME_VERSION}_windows64.tar.bz2"
     FILENAME "cef_binary_${CEF_VERSION}_chromium-${CHROME_VERSION}_windows64.tar.bz2"
-    SHA512 cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e
+    SHA512 fe3db52b196e30210e7a4b32c931f1ec85547c682af345d753382b0305c224e4829585e2c1bd793ead15cee18ffe1c881f450a01596f9f3f7cff3431d464e148
 )
 
 # Apply use-md.patch to enable Multi-threaded DLL (/MD)
