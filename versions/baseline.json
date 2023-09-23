@@ -9,6 +9,10 @@
 	  "tacopie": {
       "baseline": "3.2.0",
       "port-version": 1
+    },
+    "cpp-redis": {
+      "baseline": "4.3.1",
+      "port-version": 1
     }
   }
 }
